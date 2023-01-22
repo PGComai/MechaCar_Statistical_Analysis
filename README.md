@@ -30,3 +30,7 @@ The variance exceeds 100 PSI only in the case of manufacturing lot 3. Lots 1 and
 
 ### Lot 3
 ![image](/images/t_test3.png)
+
+For a 95% confidence interval only lot 3 shows a statistically significant deviation from the population mean.
+
+## Study Design: MechaCar vs Competition
