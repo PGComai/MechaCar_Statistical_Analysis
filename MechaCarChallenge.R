@@ -40,6 +40,8 @@ lot_sum <- coil_lot_groups %>% summarize(mean=mean(PSI),median=median(PSI),varia
                                          stdev=sd(PSI))
 tt1 <- t.test(mecha_coils$PSI, mu=1500)
 
+# thanks to https://bookdown.org/ndphillips/YaRrr/t-test-t-test.html
+
 ttl1 <- t.test(formula=PSI ~ 1, data=mecha_coils, mu=1500, subset=Manufacturing_Lot=='Lot1')
 
 ttl2 <- t.test(formula=PSI ~ 1, data=mecha_coils, mu=1500, subset=Manufacturing_Lot=='Lot2')

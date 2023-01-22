@@ -16,3 +16,17 @@ The slope of the model should be non-zero, since some of the variables are the c
 ### Does the variance exceed 100 PSI in any case?
 
 The variance exceeds 100 PSI only in the case of manufacturing lot 3. Lots 1 and 2 show relatively low variance, but lot 3 has a score of 170. This is an order of magnitude greater than that of the other two lots.
+
+## T-Tests on Suspension Coils
+
+### T-test of all lots vs population mean of 1500 PSI
+![image](/images/t_test.png)
+
+### Lot 1
+![image](/images/t_test1.png)
+
+### Lot 2
+![image](/images/t_test2.png)
+
+### Lot 3
+![image](/images/t_test3.png)
