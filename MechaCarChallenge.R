@@ -28,3 +28,13 @@ reg_sum <- summary(l_reg)
 # Residual standard error: 8.774 on 44 degrees of freedom
 # Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
 # F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
+
+mecha_coils <- read.csv('Suspension_Coil.csv')
+
+
+coil_sum <- mecha_coils %>% summarize(mean=mean(PSI),median=median(PSI),variance=var(PSI),
+                                      stdev=sd(PSI))
+coil_lot_groups <- mecha_coils %>% group_by(Manufacturing_Lot)
+
+lot_sum <- coil_lot_groups %>% summarize(mean=mean(PSI),median=median(PSI),variance=var(PSI),
+                                         stdev=sd(PSI))
