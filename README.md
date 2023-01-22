@@ -34,3 +34,16 @@ The variance exceeds 100 PSI only in the case of manufacturing lot 3. Lots 1 and
 For a 95% confidence interval only lot 3 shows a statistically significant deviation from the population mean.
 
 ## Study Design: MechaCar vs Competition
+
+###Task: Design a study to quantify MechaCar performance against competition.
+
+Car metrics of interest to the buyer:
+- Price
+- Efficiency
+- Reliability
+- Safety
+
+For each of these metrics, competitor car data would be collected to create a comprehensive vehicle database. I don't think random sampling would be needed since there are only so many cars, all of which have publicly available data concerning our metrics, so creating a database that comprises most, if not all, of the competitor population should be possible.
+
+The data would be grouped by price to enable comparisons of MechaCar metrics to multiple cost-classes of vehicle. Efficiency, reliability, and safety would
+
