@@ -45,5 +45,13 @@ Car metrics of interest to the buyer:
 
 For each of these metrics, competitor car data would be collected to create a comprehensive vehicle database. I don't think random sampling would be needed since there are only so many cars, all of which have publicly available data concerning our metrics, so creating a database that comprises most, if not all, of the competitor population should be possible.
 
-The data would be grouped by price to enable comparisons of MechaCar metrics to multiple cost-classes of vehicle. Efficiency, reliability, and safety would
+The data would be grouped by price to enable comparisons of MechaCar metrics to multiple cost-classes of vehicle. Efficiency, reliability, and safety data would be collected for our MechaCar, and then compared to the corresponding population means of each price range using t-tests.
+
+This would test our hypotheses:
+
+Null hypothesis: Variations in mean metrics of the MechaCar vs competition populations are due to random chance.
+
+Alternative hypothesis: Variations in mean metrics of the MechaCar vs competition populations are statistically significant and likely due to the design of the car.
+
+Testing these hypotheses would let us know how our MechaCar compares to multiple price ranges of the competition. This information would allow us to price the MechaCar competitively, since price is the metric which is easiest for us to adjust.
 
