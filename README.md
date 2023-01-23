@@ -35,7 +35,7 @@ For a 95% confidence interval only lot 3 shows a statistically significant devia
 
 ## Study Design: MechaCar vs Competition
 
-###Task: Design a study to quantify MechaCar performance against competition.
+### Task: Design a study to quantify MechaCar performance against competition.
 
 Car metrics of interest to the buyer:
 - Price
